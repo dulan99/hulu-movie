@@ -6,9 +6,10 @@ import Header from "./Header.js";
 import Nav from "./Nav.js";
 import Results from "./Results.js";
 import Footer from "./Footer.js";
+import request from "./Request.js";
 
 function App() {
-  const [selectedOption, setSelectedOption] = useState();
+  const [selectedOption, setSelectedOption] = useState(request.fetchTrending);
 
   return (
     <div className='App'>

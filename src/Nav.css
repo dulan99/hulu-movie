@@ -1,0 +1,30 @@
+/** @format */
+
+.nav {
+  display: flex;
+  color: rgb(92, 252, 132);
+  overflow-x: scroll;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+.nav {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.nav > h2 {
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-weight: 500;
+  opacity: 0.8;
+  transition: transform 50ms ease-out;
+}
+.nav > h2:hover {
+  opacity: 1;
+  color: rgb(136, 253, 165);
+  transform: scale(1.1);
+}

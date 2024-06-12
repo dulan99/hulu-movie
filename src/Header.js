@@ -40,7 +40,7 @@ function Header() {
       </div>
       <img
         className='img-logo'
-        src='https://hulu-matchmaker.s3.us-west-2.amazonaws.com/2020-08/Hulu_Logo-01_newgreen.png'
+        src="/logo.png"
         // src='https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png'
         alt='hulu logo'
       />

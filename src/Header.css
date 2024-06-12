@@ -6,8 +6,9 @@
   /* background-color: rgb(50, 96, 99); */
   padding: 20px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   overflow-x: scroll;
+  flex-direction: row-reverse;
 }
 .img-logo {
   width: 100px;

@@ -38,12 +38,15 @@ function Header() {
           <p>Account</p>
         </div>
       </div>
-      <img
-        className='img-logo'
-        src="/logo.png"
-        // src='https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png'
-        alt='hulu logo'
-      />
+      <div style={{cursor:"pointer"}}>
+        <h1>CineFlix</h1>
+        <img
+          className='img-logo'
+          src="/logo.png"
+          // src='https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png'
+          alt='hulu logo'
+        />
+        </div>
     </div>
   );
 }
